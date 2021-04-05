@@ -1,7 +1,7 @@
 name: Staging deployment
 
 on: 
-  pulled_request:
+  pull_request:
     types: [labeled]
 
 jobs:
